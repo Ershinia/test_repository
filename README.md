@@ -21,3 +21,5 @@ git revert <hash> - отмена коммита по хэшу, возврат и
 работа с ветками:
 git branch <name> - создание ветки <name>
 git checkout <name> - перейти на ветку
+git merge --no-ff <br_name> -m '<massage>'
+git log --oneline --graph - Отображение истории графиком
